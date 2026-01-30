@@ -59,7 +59,7 @@ Distribuição após limpeza de imagens corrompidas:
 ### 📊 Resultados finais
 
 * **AUC Treino:** ~0.85
-* **AUC Validação:** ~0.85
+* **AUC Validação:** ~0.89
 * Curvas de treino e validação próximas, indicando **boa capacidade de generalização** e ausência de overfitting severo.
 
 ---
