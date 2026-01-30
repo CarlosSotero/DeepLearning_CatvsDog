@@ -68,7 +68,8 @@ Distribuição após limpeza de imagens corrompidas:
 
 O gráfico abaixo mostra a evolução da métrica AUC ao longo das épocas para treino e validação:
 
-> *<img width="548" height="440" alt="image" src="https://github.com/user-attachments/assets/d42278f6-ca1f-4bba-8768-75e76ba2982e" />
+<img width="543" height="429" alt="image" src="https://github.com/user-attachments/assets/03bd2c83-9812-4d5b-b782-2cf6e2d76c07" />
+
 *
 
 O comportamento das curvas indica aprendizado consistente, com validação acompanhando o treino de forma estável.
