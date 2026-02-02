@@ -21,8 +21,8 @@ O trabalho evolui de um modelo CNN básico para um modelo mais robusto utilizand
 ```text
 .
 ├── notebooks/
-│   ├── 01_baseline_cnn.ipynb
-│   └── 02_transfer_learning_mobilenet.ipynb
+│   ├── Prática_com_Deep_Learning_para_Classificação_de_Imagens.ipynb
+│   └── Prática_com_Deep_Learning_para_Classificação_de_Imagens_(versão_melhorada).ipynb
 │
 ├── saved_models/
 │   ├── cat_vs_dog.hdf5
@@ -47,7 +47,7 @@ Imagens corrompidas foram identificadas e removidas antes do treinamento.
 
 ## 🧠 Modelos Desenvolvidos
 
-### 🔹 Modelo 1 — CNN Básica (Baseline)
+### 🔹 Modelo 1 — Prática_com_Deep_Learning_para_Classificação_de_Imagens
 
 - CNN construída do zero  
 - Camadas convolucionais + pooling  
@@ -62,7 +62,7 @@ Modelo funcional, porém com limitações de generalização.
 
 ---
 
-### 🔹 Modelo 2 — Transfer Learning (MobileNet)
+### 🔹 Modelo 2 — Prática_com_Deep_Learning_para_Classificação_de_Imagens_(versão_melhorada)
 
 - Backbone pré-treinado: **MobileNet**
 - `include_top=False`
