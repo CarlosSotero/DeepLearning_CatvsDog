@@ -1,18 +1,18 @@
-# 🐶🐱 Cats vs Dogs Classification with CNN and Transfer Learning
+# 🐶🐱 Cats vs Dogs — Classificação de Imagens com CNN e Transfer Learning
 
-Este projeto tem como objetivo construir e comparar modelos de **classificação binária de imagens (Gatos vs Cães)** utilizando **Redes Neurais Convolucionais (CNN)** com TensorFlow/Keras.
+Este projeto tem como objetivo construir, avaliar e comparar modelos de **classificação binária de imagens (Gatos vs Cães)** utilizando **Redes Neurais Convolucionais (CNN)** com **TensorFlow/Keras**.
 
-O trabalho evolui de um modelo CNN básico para um modelo mais robusto utilizando **Transfer Learning**, demonstrando ganhos significativos de desempenho e generalização.
+O trabalho parte de um **modelo CNN treinado do zero (baseline)** e evolui para um modelo mais robusto baseado em **Transfer Learning**, evidenciando ganhos significativos em desempenho, estabilidade e capacidade de generalização.
 
 ---
 
 ## 📌 Objetivos do Projeto
 
-- Construir um classificador de imagens Gato vs Cachorro
-- Aplicar conceitos fundamentais de Visão Computacional
-- Comparar um modelo CNN treinado do zero com um modelo baseado em Transfer Learning
-- Analisar métricas como Accuracy, AUC e Loss
-- Avaliar comportamento de overfitting e generalização
+- Construir um classificador de imagens Gato vs Cachorro  
+- Aplicar conceitos fundamentais de Visão Computacional  
+- Comparar um modelo CNN básico com um modelo baseado em Transfer Learning  
+- Avaliar métricas como **Accuracy**, **AUC** e **Loss**  
+- Analisar comportamento de overfitting e generalização  
 
 ---
 
@@ -23,13 +23,14 @@ O trabalho evolui de um modelo CNN básico para um modelo mais robusto utilizand
 ├── notebooks/
 │   ├── Prática_com_Deep_Learning_para_Classificação_de_Imagens.ipynb
 │   └── Prática_com_Deep_Learning_para_Classificação_de_Imagens_(versão_melhorada).ipynb
-│
+│   └── Imagens_externas_Cat_vs_Dog.ipynb
 ├── saved_models/
 │   ├── cat_vs_dog.hdf5
-│   └── cat_vs_dog_v2.hdf5.hdf5
+│   └── cat_vs_dog_v2.hdf5
 │
 ├── README.md
 └── requirements.txt
+
 ````
 ---
 ## 📊 Dataset
@@ -107,6 +108,18 @@ model.save('saved_models/transfer_learning_model.hdf5')
 from keras.models import load_model
 model = load_model('saved_models/transfer_learning_model.hdf5', compile=False)
 ````
+
+## 🧪 Testes com Imagens Externas
+
+Além da avaliação no conjunto de validação, foi desenvolvido um script interativo para testar o modelo com imagens externas, permitindo o upload manual da imagem e retornando:
+
+Classe prevista (Gato ou Cachorro)
+
+Probabilidade associada à predição
+
+Visualização da imagem com o resultado
+
+Esses testes demonstraram boa capacidade de generalização do modelo para imagens fora do dataset original.
 ## Tecnologias Utilizadas
 - Python
 - TensorFlow / Keras
