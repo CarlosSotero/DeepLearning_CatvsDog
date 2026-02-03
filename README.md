@@ -24,6 +24,7 @@ O trabalho parte de um **modelo CNN treinado do zero (baseline)** e evolui para 
 │   ├── Prática_com_Deep_Learning_para_Classificação_de_Imagens.ipynb
 │   └── Prática_com_Deep_Learning_para_Classificação_de_Imagens_(versão_melhorada).ipynb
 │   └── Imagens_externas_Cat_vs_Dog.ipynb
+|
 ├── saved_models/
 │   ├── cat_vs_dog.hdf5
 │   └── cat_vs_dog_v2.hdf5
